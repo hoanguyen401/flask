@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<h1> Create a question
+	</h1>
+	<form method='POST' action='/question'>
+		<p>Question: <input type='text' name='text'/></p>
+		<p><input type='submit' value='Add a question'/></p>
+	</form>
+	{% endblock %}
+	
